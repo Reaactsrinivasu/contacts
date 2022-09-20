@@ -28,21 +28,18 @@ const contacts = () => {
         </tr>
       </thead>
       <tbody>
-        {contacts.map((contact,index)=>(
+        {contacts.length && contacts.map((contact,index)=>(
 
-        <tr className='text-center'>
+        <tr className='text-center' key={index}>
           <td>{index + 1}</td>
           <td>{contact.name}</td>
           <td>{contact.phonenumber}</td>
           <td>{contact.email}</td>
-        
-          {/* <td><AiFillEye/>&ensp;<AiOutlineEdit/>&ensp;<AiTwotoneDelete/></td> */}
           <td>
-            <a href="#" className='clolor-primary'><AiFillEye/></a>&nbsp;
-            <a href="#" className='success'><AiOutlineEdit/></a>&nbsp;
-            <a href="#" className='color-danger'><AiTwotoneDelete/></a>
+            <a href="#"><AiFillEye/></a>&nbsp;
+            <a href="#" style={{color:'green',}}><AiOutlineEdit/></a>&nbsp;
+            <a href="#" style={{color:'orangered',}}><AiTwotoneDelete/></a>
           </td>
-          {/* <td><Button className='btn btn-primary'>Edit</Button>&nbsp;<Button className='btn btn-danger'>Delete</Button></td> */}
         </tr>
 
 
