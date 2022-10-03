@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "user1",
+      "phone": "123456",
+      "email": "user1@testmail.com"
+    },
+    {
+      "id": 2,
+      "name": "user2",
+      "phone": "123456",
+      "email": "user2@testmail.com"
+    },
+    {
+      "name": "sameer vishnu",
+      "phone": "8798798",
+      "email": "srinu@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "lakshmiRao",
+      "phone": "888888",
+      "email": "lakshmi@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "harika",
+      "phone": "9879879879",
+      "email": "harika@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "bharahi",
+      "phone": "2222222",
+      "email": "bharahi@gmail.com",
+      "id": 8
+    }
+  ]
+}
